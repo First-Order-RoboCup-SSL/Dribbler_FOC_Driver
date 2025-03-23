@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "SCH_DengFO-easyedapro")(type "KiCad")(uri "${KIPRJMOD}/SCH_DengFO-easyedapro.kicad_sym")(options "")(descr ""))
+)
