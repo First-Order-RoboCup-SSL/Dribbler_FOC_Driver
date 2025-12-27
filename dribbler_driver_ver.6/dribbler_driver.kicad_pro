@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.95,
-          "width": 0.975
+          "height": 3.35,
+          "width": 2.15
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -191,7 +191,9 @@
         0.0,
         0.2,
         0.254,
+        0.3,
         0.5,
+        0.8,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -471,7 +473,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "User"
+    ]
   },
   "meta": {
     "filename": "dribbler_driver.kicad_pro",
