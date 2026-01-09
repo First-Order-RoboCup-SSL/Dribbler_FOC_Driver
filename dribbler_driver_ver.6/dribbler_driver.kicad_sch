@@ -16492,7 +16492,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "2n"
 			(at 321.056 121.666 0)
 			(effects
 				(font
@@ -17875,7 +17875,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c976ea2-f253-4f0c-8ed6-bdcc45582359")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 309.372 117.094 0)
 			(effects
 				(font
@@ -17884,7 +17884,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "2n"
 			(at 309.372 121.666 0)
 			(effects
 				(font
@@ -17929,7 +17929,7 @@
 		(instances
 			(project "dribbler_driver"
 				(path "/16386afa-d57f-4224-8aa0-968af24bcdeb"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -21659,7 +21659,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "2n"
 			(at 298.196 121.92 0)
 			(effects
 				(font
@@ -22356,6 +22356,75 @@
 			(project ""
 				(path "/16386afa-d57f-4224-8aa0-968af24bcdeb"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 27.94 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b5c4130-1e86-4e5e-b370-500f1a9d864a")
+		(property "Reference" "R?"
+			(at 25.908 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.05"
+			(at 23.622 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 29.718 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a81d69c-3779-4f07-be8a-f245425341c2")
+		)
+		(pin "2"
+			(uuid "2c4200ea-adcf-4f60-9130-e050efc49596")
+		)
+		(instances
+			(project "dribbler_driver"
+				(path "/16386afa-d57f-4224-8aa0-968af24bcdeb"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -24919,6 +24988,75 @@
 			(project "dribbler_driver"
 				(path "/16386afa-d57f-4224-8aa0-968af24bcdeb"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 30.48 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7ae108d-c37e-4b91-90a4-07f192e2eca6")
+		(property "Reference" "R?"
+			(at 28.448 115.062 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.05"
+			(at 26.162 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 32.258 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d217b339-6e4a-4217-9836-443518202d6f")
+		)
+		(pin "2"
+			(uuid "2cbe5ab9-81d8-4c6f-9dd9-56215b439d48")
+		)
+		(instances
+			(project "dribbler_driver"
+				(path "/16386afa-d57f-4224-8aa0-968af24bcdeb"
+					(reference "R?")
 					(unit 1)
 				)
 			)

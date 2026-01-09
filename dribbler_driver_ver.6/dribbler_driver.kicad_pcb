@@ -10947,18 +10947,18 @@
 			(net 1 "GND")
 			(pinfunction "MountPin")
 			(pintype "passive")
-			(uuid "6a1097f8-b0c7-4f1f-9375-350602e7d227")
+			(uuid "2ca242ea-05be-4147-8242-fc27241c5a7c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S8B-PH-SM4-TB_1x08-1MP_P2.00mm_Horizontal.step"
+		(model "D:/jst-ph-2-00mm-connector-set-1.snapshot.75/JST - PH - SMD - Right - 1.25mm/JST - PH - SMD (R) - 8Pin - 2.00mm.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
